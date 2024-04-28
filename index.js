@@ -43,7 +43,7 @@ const User = mongoose.model('User', UserSchema);
 
 // module.exports = User;
 // Connect to MongoDB
-mongoose.connect('mongodb://0.0.0.0:27017/myapp', {
+mongoose.connect('mongodb+srv://faizankhan9891:Em0mu01ejJlZ20wm@cluster0.fljrhv8.mongodb.net/?retryWrites=true&w=majority', {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
